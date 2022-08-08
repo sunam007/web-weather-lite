@@ -25,7 +25,7 @@ const searchTemp = async () => {
     div.innerHTML = `
           <img src="https://openweathermap.org/img/wn/${
             weather[0].icon
-          }.png" alt="" />
+          }@2x.png" alt="" />
           <h1>${name}</h1>
           <h3><span>${Math.round(main.temp - 273.15)}</span>&deg;C</h3>
           <h3>${weather[0].main}</h3>
